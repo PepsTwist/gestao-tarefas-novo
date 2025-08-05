@@ -7,14 +7,6 @@ const config = {
 };
 
 module.exports = {
-  style: {
-    postcssOptions: {
-      plugins: [
-        require('tailwindcss'),
-        require('autoprefixer'),
-      ],
-    },
-  },
   webpack: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
